@@ -12,3 +12,8 @@ package.xml
 **/__tests__/**
 
 node_modules/
+
+**/profileSessionSettings/**
+**/profilePasswordPolicies/**
+profileSessionSettings/**
+profilePasswordPolicies/**

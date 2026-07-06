@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Bread_Delivery_Tracker</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <custom>true</custom>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Bread__c.Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Bread__c.Difficulty_to_Bake__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Bread__c.Flavor_Tags__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Bread__c.Flavor_Texture_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Bread__c.Suggested_Uses__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Bread__c.Texture_Tags__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Bread__c-Bread Layout</layout>
+    </layoutAssignments>
+    <tabVisibilities>
+        <tab>Bread__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <userLicense>External Apps Login</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableNotifications</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+</Profile>
