@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bread_Compact</fullName>
+    <fields>Name</fields>
+    <fields>Difficulty_to_Bake__c</fields>
+    <label>Bread Compact</label>
+</CompactLayout>

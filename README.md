@@ -1,6 +1,15 @@
 # salesforce-resourceful-wolf
 First repo to demo general development and admin configs for Salesforce.
 
+House keeping:
+1. Change the org default language to English by running an Anonymous Apex script at `scripts/apex/change-language-to-english.apex`
+
+Setup:
+1. >SFDX Push Source to Default Org
+1. Use the Data Import Wizard to map and import Bread records from `scripts/data/Bread.csv`
+2. Run the Anonymous Apex script at `scripts/apex/add-bread-record-image.apex` to add images of breads
+3. 
+
 # Salesforce DX Project
 
 Salesforce DX is a development approach that brings source-driven development, team collaboration, and continuous integration to the Salesforce Platform. Instead of working directly in an org through a web browser, you work with metadata as source files in a local DX project, track changes in version control, and deploy through automated processes.
